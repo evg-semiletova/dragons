@@ -17,6 +17,7 @@ def choose_cave():
         cave = input()
     return cave
 
+
 def check_cave(chosen_cave):
     print("you approach the cave...")
     time.sleep(3)

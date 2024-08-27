@@ -13,8 +13,7 @@ there is a greedy and hungry dragon who will eat you instantly''')
 def choose_cave():
     cave = ''
     while cave != '1' and cave != '2':
-        print('Which cave will you enter? (Press 1 or 2)')
-        cave = input()
+        cave = input('Which cave will you enter? (Press 1 or 2)\n')
     return cave
 
 
@@ -41,5 +40,4 @@ while play_again == "yes" or play_again == "y":
     cave_number = choose_cave()
     check_cave(cave_number)
 
-    print("do you want to play again? (yes or no)")
-    play_again = input()
+    play_again = input("do you want to play again? (yes or no)\n")
